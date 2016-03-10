@@ -12,10 +12,14 @@ inquirer.prompt = function(_params, cb) {
 
     params.choices = Object.keys(choices).map(function(key) {
       var val = choices[key];
-      return {
-        name: key,
-        value: key
-      };
+      if (key === '_____') {
+        return (new inquirer.Separator(val));
+      } else {
+        return {
+          name: key,
+          value: key
+        };
+      }
     });
 
     return prompt(params, cb).then(function(answers) {
