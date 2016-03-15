@@ -1,5 +1,7 @@
 # inquirer-question
 
+[![Build Status](https://travis-ci.org/ewnd9/inquirer-question.svg?branch=master)](https://travis-ci.org/ewnd9/inquirer-question)
+
 flexible promise-based enhancement for one question case with backward capability
 
 ## Install

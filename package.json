@@ -23,6 +23,6 @@
   },
   "devDependencies": {
     "ava": "^0.13.0",
-    "inquirer-test": "^1.0.3"
+    "inquirer-test": "^1.0.4"
   }
 }
