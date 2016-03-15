@@ -4,7 +4,7 @@
   "description": "flexible promise-based enhancement for one question case",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "ava --serial --verbose"
   },
   "repository": {
     "type": "git",
