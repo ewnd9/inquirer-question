@@ -13,7 +13,7 @@ $ npm install inquirer-question --save
 ### Before
 
 ```js
-var inquirer = require('inquirer-bluebird');
+const inquirer = require('inquirer-bluebird');
 
 inquirer
   .prompt({
@@ -37,7 +37,7 @@ inquirer
 ### Now
 
 ```js
-var inquirer = require('inquirer-question');
+const inquirer = require('inquirer-question');
 
 inquirer
   .prompt({
@@ -56,6 +56,13 @@ inquirer
   });
 ```
 
+## Related
+
+- [inquirer](https://github.com/sboudrias/Inquirer.js)
+- [inquirer-test](https://github.com/ewnd9/inquirer-test)
+- [inquirer-bluebird](https://github.com/ewnd9/inquirer-bluebird)
+- [inquirer-credentials](https://github.com/ewnd9/inquirer-credentials)
+- [inquirer-menu](https://github.com/ewnd9/inquirer-menu)
 
 ## License
 

@@ -7,11 +7,11 @@ inquirer
     choices: {
       'test-1': function() {
         // some computatations
-        return 1;
+        return 'result-1';
       },
-      'test-2': 2
+      'test-2': 'result-2'
     }
   })
   .then(function(result) {
-    console.log(result); //=> 1 or 2
+    console.log(result); //=> 'result-1' or 'result-2'
   });
