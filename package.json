@@ -1,6 +1,6 @@
 {
   "name": "inquirer-question",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "flexible promise-based enhancement for one question case",
   "main": "index.js",
   "scripts": {
